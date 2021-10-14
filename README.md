@@ -5,4 +5,6 @@ Claudeci Alves Pinheiro
 Estefanio Ferreira Santos
 Jacqueline Poletto Tulio
 Paula Barrem
-Rogerio Tavares
+rogerio Tavares
+
+#criada a estrutura do nosso site
