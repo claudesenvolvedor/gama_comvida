@@ -1,0 +1,317 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+@font-face {
+    font-family: "fonte-modern";
+    src: url("../fonts/modern_sans_serif_7.ttf");
+}
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Source+Code+Pro:ital,wght@1,900&display=swap');
+
+/* Importação (Google Fonts) */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/* CSS Reset */
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
+p { 
+
+    text-align: justify;
+    text-indent: 50px;
+}
+p.texto_quemsomos{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-right: 1cm;
+    padding-left: 5cm;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p.texto{
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    padding-right: 1cm;
+    padding-left: 1cm;
+    text-align: justify;
+    
+}
+
+/* Menu de navegação. Formatação e alinhamento */
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    font-family: "fonte-modern";
+    font-size: 15pt;
+    position:absolute;
+    top: -20px;
+    left: 770px;
+}
+nav#menu li {
+    display: inline-block;
+    background-color: #90EE90;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+    border-radius: 8px;
+}
+nav#menu li:hover{
+    background-color: rgb(47, 78, 46)
+
+}   
+nav#menu h1 {
+    display: none;
+}
+nav#menu a{
+    color: #000000;
+    text-decoration: none;
+    font-weight: bolder;
+}
+nav#menu a:hover{
+    color: rgb(192, 228, 198);;
+
+}
+/* Backgroud Formatação e alinhamento */
+body{
+    background-color: rgb(192, 228, 198);
+    color: rgba(0, 0, 0, 1);
+    margin: auto;
+}
+
+div#corfundo{
+    width: 1180px;
+    background-color: #ffffff;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0,.5);
+    padding: 10px;
+    border-radius: 1cm;
+}
+/*Footer formatação e alinhamento */
+footer#footer{
+    clear: both;
+    border-top: 1px solid rgb(47, 78, 46);
+    margin: 10px;
+    
+}
+footer#footer p{
+    text-align: center;
+    font-weight: bolder;
+    
+   }
+
+
+/*Formulário de Sugestão formatação e alinhamento*/
+
+form {
+    /* Apenas para centralizar o form na página */
+    margin: 0 auto;
+    width: 400px;
+    /* Para ver as bordas do formulário */
+    padding: 1em;
+    border-radius: 50px;
+    border: 5px solid #90EE90;
+    padding-bottom: 13px;
+    margin-bottom: 15px;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input, textarea {
+    /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
+    font-family: 'Open Sans', sans-serif;
+    
+    
+    /* Para dar o mesmo tamanho a todos os campo de texto */
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+    
+    /* Para harmonizar o look & feel das bordas nos campos de texto*/
+    border: 3px solid #90EE90;
+    border-radius: 50px;
+}
+.button {
+    /* Para posicionar os botões para a mesma posição dos campos de texto */
+    padding-left: 90px; /* mesmo tamanho que os elementos do tipo label */
+}
+button {
+    /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço entre as labels e os seus campos de texto*/
+    margin-left: .5em;
+    color: rgb(0, 0, 0);
+    background-color: rgb(230, 160, 30);
+}
+img.logo_final{
+    padding-left: 1cm;
+
+}
+/* Formatação de imagens com legendas */
+/*figure.descricao {
+    position: relative;
+    border: 8px solid #90EE90;
+    box-shadow: 1px 1px 4px black;
+    width: 34%;
+      
+    
+}*/
+figure.descricao img{
+    float: left;
+    border-radius: 148px;
+    padding: 0px;
+    margin: 0px 35px 10px 15px;
+    max-width: 256px; 
+   
+    width: 34%;
+    margin-top: 17px;
+
+    border: 5px solid #90EE90;
+}
+/*figure.descricao figcaption {
+    opacity: 0;
+    position:absolute ;
+    top: 584px;
+    left: 127px;
+    background-color: rgba(192, 228, 198, 0.4);
+    color: white;
+    width: 19%;
+    height: 77%;
+    box-sizing: border-box;
+    transition: opacity 1s;
+    margin: 1.5em;
+    border-radius: 260px;
+    float: left;
+
+    
+}
+figure.descricao:hover figcaption{
+    opacity: 1;
+}*/
+
+/* formatação nome sobre */
+h2#nome{
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15pt;
+    
+}
+a#linkedin{
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgba(0,119,183);
+   
+}
+
+img.foto{
+    float: left;
+    border-radius: 101px;
+    padding: 5px;
+    margin: 0px 27px 10px 15px;
+    max-width: 186px; 
+    box-shadow: 1px 1px 4px black;
+    width: 34%;
+}
+
+h2.titulo_da_noticia{
+    text-align: left;
+    margin-left: 120px;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20pt;
+    color: rgb(230, 160, 30);
+}
+
+div.fale_conosco{
+    border-radius: 50px;
+    border: 5px solid #90EE90;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+h1.titulo{
+    font-family: 'Bree Serif', serif;
+    font-family: 'Source Code Pro', monospace;
+    
+    font-size: 30pt;
+    margin-left: 10%;
+    margin-bottom: -2%;
+    color: rgb(230, 160, 30);
+}
+p.sub_titulo{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10pt;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    padding-right: 1cm;
+    padding-left: 2cm;
+    text-align: justify; 
+}
+a.link {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 1px;
+    padding-bottom: 40px;
+    padding-left: 23cm;
+    text-align: right;
+    font-weight: bolder;
+    text-decoration: none; 
+    color: rgba(0,119,183); 
+}
+a.link_final {
+
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 1px;
+    padding-bottom: 40px;
+    padding-left: 1cm;
+    text-align: right;
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: uppercase;  
+    color: rgba(0,119,183); 
+}
+
+/*Fazendo a estilização dos 2 vídeos */
+iframe.video{
+
+    border-radius: 50px;
+    padding: 0px;
+    margin: 0px 320px 15px;
+    border: 5px solid #90EE90;
+    width: 45%;
+    margin-top: 17px;
+}
+/*Fazendo a estilização dos players  de Audios*/
+audio.audio{
+    border: 5px solid #90EE90;
+    border-radius: 50px;
+    width: 45%;
+    margin-top: -31px;
+    margin-left: 330px;
+}
+
+div.noticiarios{
+    border-radius: 50px;
+    border: 5px solid #90EE90;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
