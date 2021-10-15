@@ -1,14 +1,13 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
-@font-face {
+        @font-face {
     font-family: "fonte-modern";
     src: url("../fonts/modern_sans_serif_7.ttf");
 }
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Source+Code+Pro:ital,wght@1,900&display=swap');
 
-/* Importação (Google Fonts) */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 /* CSS Reset */
 *{
     margin: 0;
@@ -22,8 +21,7 @@ body {
 }
 
 p { 
-
-    text-align: justify;
+text-align: justify;
     text-indent: 50px;
 }
 p.texto_quemsomos{
@@ -56,7 +54,7 @@ nav#menu ul{
 }
 nav#menu li {
     display: inline-block;
-    background-color: #90EE90;
+gg    background-color: #90EE90;
     padding: 10px;
     margin: 2px;
     transition: background-color 1s;

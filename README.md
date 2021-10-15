@@ -10,3 +10,5 @@ rogerio Tavares
 #criada a estrutura do nosso site
 
 Inserida todas as mídias em suas pastas: áudios/fotos/css/js
+
+Atualizado o arquivo style.css para que faça um reset ao entrar no site e reconfigure para todos os navegadores
