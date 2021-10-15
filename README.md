@@ -8,3 +8,5 @@ Paula Barrem
 rogerio Tavares
 
 #criada a estrutura do nosso site
+
+Inserida todas as mídias em suas pastas: áudios/fotos/css/js
