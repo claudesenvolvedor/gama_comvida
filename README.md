@@ -12,3 +12,6 @@ rogerio Tavares
 Inserida todas as mídias em suas pastas: áudios/fotos/css/js
 
 Atualizado o arquivo style.css para que faça um reset ao entrar no site e reconfigure para todos os navegadores
+Atualizada a página fale conosco
+
+Inserida a função Javascript no botão enviar
