@@ -3,7 +3,6 @@
 #Integrantes do grupo 2 Trilha preparatória Gama Academy Itaú/Unibanco
 Claudeci Alves Pinheiro
 Estefanio Ferreira Santos
-Jacqueline Poletto Tulio
 Paula Barrem
 rogerio Tavares
 
@@ -11,7 +10,11 @@ rogerio Tavares
 
 Inserida todas as mídias em suas pastas: áudios/fotos/css/js
 
+Criada as sessões index/Fale Conosco/Quem Somos/Saiba Mais
+
 Atualizado o arquivo style.css para que faça um reset ao entrar no site e reconfigure para todos os navegadores
 Atualizada a página fale conosco
 
 Inserida a função Javascript no botão enviar
+
+Editada a página Quem Somos para remoção de um integrante
