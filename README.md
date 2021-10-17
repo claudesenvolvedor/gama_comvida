@@ -8,13 +8,16 @@ rogerio Tavares
 
 #criada a estrutura do nosso site
 
-Inserida todas as mídias em suas pastas: áudios/fotos/css/js
+#Inserida todas as mídias em suas pastas: áudios/fotos/css/js
 
-Criada as sessões index/Fale Conosco/Quem Somos/Saiba Mais
+#Criada as sessões index/Fale Conosco/Quem Somos/Saiba Mais
 
-Atualizado o arquivo style.css para que faça um reset ao entrar no site e reconfigure para todos os navegadores
-Atualizada a página fale conosco
+#Atualizada a página fale conosco
 
-Inserida a função Javascript no botão enviar
+#Inserida a função Javascript no botão enviar
 
-Editada a página Quem Somos para remoção de um integrante
+#Editada a página Quem Somos para remoção de um integrante
+
+#Removida do Css as linhas que reconfiguravam para resetar a página em todos os navegadores
+
+#adicionada em todas as fotos legendas e descrições para que os leitores de tela identifiquem e passem  ao usuário cego maiores informaççoes e detalhes das imagens
